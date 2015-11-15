@@ -1,0 +1,7 @@
+.ok {
+	-fx-background-color: green;
+}
+
+.failed {
+	-fx-background-color: red;
+}
