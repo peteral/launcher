@@ -20,6 +20,7 @@ public class Launcher extends Application {
 	private static final String GAME_PATH = "gamePath";
 	private static final String PERSON_ID = "personId";
 	private static final String SERVER_URL = "serverUrl";
+	private static final String VERSION = "1.0";
 	private Stage primaryStage;
 	private AnchorPane rootLayout;
 	private Game game;
@@ -29,7 +30,7 @@ public class Launcher extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		this.primaryStage = primaryStage;
-		primaryStage.setTitle("Launcher");
+		primaryStage.setTitle("Launcher [" + VERSION + "]");
 		primaryStage.getIcons().add(new Image(Launcher.class.getResourceAsStream("launcher_32.png")));
 
 		createModel();

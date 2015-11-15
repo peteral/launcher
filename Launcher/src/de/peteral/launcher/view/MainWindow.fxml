@@ -5,17 +5,17 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="142.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.peteral.launcher.view.MainWindowController">
+<AnchorPane prefHeight="200.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.peteral.launcher.view.MainWindowController">
    <children>
       <Label layoutX="20.0" layoutY="14.0" text="Server:" />
-      <Label layoutX="20.0" layoutY="44.0" text="Person:" />
-      <Label layoutX="20.0" layoutY="74.0" text="Spiel:" />
-      <Label layoutX="20.0" layoutY="104.0" text="Verzeichnis:" />
-      <TextField fx:id="gameFolder" layoutX="95.0" layoutY="100.0" prefHeight="25.0" prefWidth="257.0" />
-      <Button layoutX="356.0" layoutY="100.0" mnemonicParsing="false" onAction="#changeGameFolder" text="..." />
-      <TextField fx:id="personId" layoutX="95.0" layoutY="40.0" prefHeight="25.0" prefWidth="257.0" />
-      <Button layoutX="356.0" layoutY="40.0" mnemonicParsing="false" onAction="#changePerson" text="..." />
-      <TextField fx:id="serverUrl" layoutX="95.0" layoutY="10.0" prefHeight="25.0" prefWidth="286.0" />
-      <Button fx:id="launchGame" layoutX="95.0" layoutY="70.0" mnemonicParsing="false" onAction="#startGame" prefHeight="25.0" prefWidth="286.0" text="Button" />
+      <Label layoutX="20.0" layoutY="57.0" text="Person:" />
+      <Label layoutX="20.0" layoutY="101.0" text="Spiel:" />
+      <Label layoutX="20.0" layoutY="145.0" text="Verzeichnis:" />
+      <TextField fx:id="gameFolder" layoutX="154.0" layoutY="141.0" prefHeight="25.0" prefWidth="321.0" />
+      <Button layoutX="487.0" layoutY="141.0" mnemonicParsing="false" onAction="#changeGameFolder" text="..." />
+      <TextField fx:id="personId" layoutX="154.0" layoutY="53.0" prefHeight="25.0" prefWidth="321.0" />
+      <Button layoutX="487.0" layoutY="53.0" mnemonicParsing="false" onAction="#changePerson" text="..." />
+      <TextField fx:id="serverUrl" layoutX="154.0" layoutY="10.0" prefHeight="25.0" prefWidth="321.0" />
+      <Button fx:id="launchGame" layoutX="154.0" layoutY="97.0" mnemonicParsing="false" onAction="#startGame" prefHeight="25.0" prefWidth="321.0" text="Button" />
    </children>
 </AnchorPane>
