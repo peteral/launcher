@@ -11,6 +11,7 @@ import de.peteral.launcher.view.MainWindowController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -29,6 +30,7 @@ public class Launcher extends Application {
 	public void start(Stage primaryStage) {
 		this.primaryStage = primaryStage;
 		primaryStage.setTitle("Launcher");
+		primaryStage.getIcons().add(new Image(Launcher.class.getResourceAsStream("launcher_32.png")));
 
 		createModel();
 
